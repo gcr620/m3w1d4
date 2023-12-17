@@ -1,0 +1,121 @@
+#main{
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.inFlex{
+    display: inline-flex;
+}
+#nav{
+    gap: 30px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 188);
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    border-radius: 200px;
+    margin-bottom: 100px;
+}
+.circle{
+    border-radius: 200px;
+    background-color: rgb(253, 243, 100);
+    padding: 5px 50px 5px 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+.circle span{
+    font-size: x-large; 
+}
+#nav .circle img{
+    width: 80px;
+}
+#nav div.circle:nth-child(3){
+    flex-grow: 2;
+    max-width: 300px;
+    height: 100px;
+    justify-content: space-around;
+    padding: 5px 30px 5px 30px;
+}
+#nav div.circle:nth-child(3) span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#card{
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product{
+    border-radius: 70px 70px 0px 0px;
+    height: 300px;
+    width: 300px;
+    background-image: url(honey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 300px;
+}
+.desc{
+    background-color: rgb(255, 255, 188);
+    border-radius: 0px 0px 70px 70px;
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+}
+.info{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.origin{
+    flex-direction: column;
+}
+.origin span:first-child{
+    font-weight: bolder;
+    font-size: larger;
+}
+.origin span:nth-child(2){
+    text-align: center;
+}
+.price{
+    font-size: larger;
+}
+.cart{
+    justify-content: center;
+}
+.cart span{
+    background-color: rgb(253, 243, 100);
+    border-radius: 200px;
+    padding: 10px 40px 10px 40px;
+}
+.art{
+    position: relative;
+    top: 50px;
+    left: 40vh;
+    width: 60%;
+}
+.art article{
+    background-color: rgb(255, 255, 188);
+    padding: 40px 40px 40px 40px;
+    gap: 40px;
+}
+.art article img{
+    width: 500px;
+}
+.prod-info{
+    flex-direction: column;
+}
+.prod-info p{
+    width: 500px;
+}
